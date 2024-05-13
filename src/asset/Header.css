@@ -1,0 +1,25 @@
+.logo-img img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+nav, .contain{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+.contain span a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.contain span a:hover {
+    color: gray;
+    border-bottom: 2px solid black;
+    transition: ease-in;
+}

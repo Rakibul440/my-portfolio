@@ -1,0 +1,30 @@
+.project{
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.head-text{
+    font-weight: bold;
+    font-size: larger;
+    font-size: 50px;
+}
+.par-text{
+    margin-bottom: 50px;
+}
+.work,.work-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work-image{
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.project:hover{
+    filter: grayscale(0%);
+}

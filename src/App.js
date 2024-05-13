@@ -25,7 +25,7 @@ function App() {
     </div>
     <h1 className='head-text'>MY WORK</h1>
       <h5 className='par-text' style={{marginBottom:"50px"}}>Awsome Project</h5>
-    <div className="xxx">
+    <div className="container xxx">
       
       {image.map(pic=> 
         {
